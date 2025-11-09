@@ -1,4 +1,4 @@
-# 🎓 Student Management REST API (ITS 4243 Microservices and Cloud Computing)
+# 🎓 Student Management REST API 
 
 This project implements a simple Student Management API using **Spring Boot 3** and **Spring Data JPA** with an in-memory **H2 database**. It meets the core assignment requirements, including RESTful endpoints, data validation, service-layer separation, and global exception handling.
 
@@ -74,3 +74,4 @@ The API is accessible under the base path **`/api/students`**. All endpoints ret
     "course": "Microservices and Cloud Computing",
     "age": 28
 }
+
