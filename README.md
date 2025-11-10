@@ -74,4 +74,49 @@ The API is accessible under the base path **`/api/students`**. All endpoints ret
     "course": "Microservices and Cloud Computing",
     "age": 28
 }
+```
+
+## 4. Containerization (Docker Support)
+
+You can containerize and deploy this API using Docker for easy distribution and consistent runtime environments.
+
+Steps to Containerize
+
+1. Build the JAR File<br>
+Use Maven to package the application into a JAR:
+
+```bash
+mvn clean package -DskipTests
+```
+
+
+2. Build Docker Image<br>
+
+Build a Docker image with the JAR file:
+```bash
+docker build -t student-api .
+```
+
+
+3. Run the Container<br>
+
+Run the container and map it to port 8080:
+```bash
+docker run -p 8080:8080 student-api
+```
+
+4. Access the API<br>
+The application will be available at:
+```bash
+http://localhost:8080
+```
+
+## 👨‍💻 Developer
+
+Chamodi Chethana<br>
+ICT/21/829<br>
+Undergraduate – University of Sri Jayewardenepura<br>
+Faculty of Technology
+
+
 
